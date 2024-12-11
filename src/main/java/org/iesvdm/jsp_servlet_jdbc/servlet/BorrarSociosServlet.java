@@ -17,6 +17,7 @@ import java.util.Optional;
 
 @WebServlet(name = "/BorrarSociosServlet", value = "/BorrarSociosServlet")
 public class BorrarSociosServlet extends HttpServlet {
+
     private SocioDAO socioDAO = new SocioDAOImpl();
 
     @Override

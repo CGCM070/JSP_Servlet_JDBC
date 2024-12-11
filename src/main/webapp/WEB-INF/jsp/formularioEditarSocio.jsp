@@ -34,7 +34,7 @@
         </div>
         <div class="row body mt-2">
             <div class="col-md-6 align-self-center">Estatura</div>
-            <div class="col-md-6 align-self-center"><input type="text" name="estatura" value="<%=editarSocio.getEstatura()%>>"/></div>
+            <div class="col-md-6 align-self-center"><input type="text" name="estatura" value="<%=editarSocio.getEstatura()%>"/></div>
         </div>
         <div class="row body mt-2">
             <div class="col-md-6 align-self-center">Edad</div>
@@ -42,7 +42,7 @@
         </div>
         <div class="row body mt-2">
             <div class="col-md-6 align-self-center">Localidad</div>
-            <div class="col-md-6 align-self-center"><input type="text" name="localidad" value="<%=editarSocio.getLocalidad()%>>"/></div>
+            <div class="col-md-6 align-self-center"><input type="text" name="localidad" value="<%=editarSocio.getLocalidad()%>"/></div>
         </div>
         <div class="row mt-2">
             <div class="col-md-6">

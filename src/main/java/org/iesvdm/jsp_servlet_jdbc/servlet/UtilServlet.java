@@ -52,4 +52,21 @@ public class UtilServlet {
         //FIN CÓDIGO DE VALIDACIÓN
         return Optional.empty();
     }
+
+
+
+    public static boolean existe (HttpServletRequest request) {
+        //CÓDIGO DE VALIDACIÓN
+        boolean valida = false;
+        int socioID = -1;
+        try {
+            socioID = Integer.parseInt(request.getParameter("socioID"));
+            valida = true;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        return valida;
+    }
 }
+
+public static Optional
